@@ -3,8 +3,8 @@ export default {
     ABOUT: "/about",
     LOGIN: "/login",
     SIGN_UP: '/sign-up',
-    ERROR_PAGE: "*",
-
+    ROOT: '/',
+    ERROR_PAGE: "*"
     // SIGNUP: "/signup",
     // USER_PROFILE: "/user-info",
     // EDIT_USER: "/edit-user",
