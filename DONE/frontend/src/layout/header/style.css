@@ -1,0 +1,30 @@
+.task-container {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    gap: 3%;
+    padding: 5%;
+}
+
+.tasks-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+
+.tasks-header>p {
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.self {
+    width: 850px;
+}
+
+@media only screen and (max-width: 450px) {
+    .self {
+        width: 350px;
+    }
+}

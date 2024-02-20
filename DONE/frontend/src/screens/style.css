@@ -1,0 +1,62 @@
+.mainPage {
+    background-color: #ffffff;
+}
+
+.createTask {
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+
+.myContainer {
+    width: 100%;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.mainPage .dark-mode {
+    background-color: #111;
+    color: #eee;
+}
+
+.add-task {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10%;
+    position: absolute;
+    top: 20%;
+    cursor: pointer;
+}
+
+.add-task> :first-child {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px 1px lightgrey;
+}
+
+.add-task> :first-child:active {
+    box-shadow: none;   
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    flex-direction: column;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.nav-design {
+  font-family: "Poppins", "Helvetica Neue";
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.design {
+  background-color: transparent;
+  border: none;
+  margin-top: 6px;
+}
+
+.nav-design .design:hover {
+  color: #ffba00;
+}
+
+.nav-design .nav-link:hover {
+  color: #ffba00 !important;
+}
+
+.nav-link.active {
+  color: #ffba00;
+}
+
+.nav-link:not(.active) {
+  color: inherit;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #eee;
+}
+
+.dark-mode .nav-link {
+  color: #eee;
+}
+
+.nav-link.active svg {
+  fill: #ffba00 !important;
+}
+
+.dark-mode .nav-link.active span {
+  color: #fff;
+}
+.dark-mode .nav-link.active .button-text {
+  color: #fff;
+}
+
+.dark-mode .nav-link:hover,
+.dark-mode .nav-link:focus,
+.dark-mode .nav-link:active {
+  color: #ffba00;
+  transition: 0.25s;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.logo {
+  border: none;
+  margin-left: 10px;
+  background-color: Transparent;
+}
+
+.no-decoration {
+  text-decoration: none;
+  /* color: #000000; */
+}
+.dark-mode .nav-link:hover,
+/* .dark-mode .nav-link:focus, */
+.dark-mode .nav-link:active {
+  /* .dark-mode .design:not(:hover)  */
+  color: #ffba00 !important;
+  transition: 0.25s;
+}
+
+.search-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.links-container {
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+.navbar-nav {
+  width: auto;
+}
+
+.active {
+  color: #ffba00 !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #ffba00;
+}
+
+@media (max-width: 1650px) {
+  .search-container {
+    display: none;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+}

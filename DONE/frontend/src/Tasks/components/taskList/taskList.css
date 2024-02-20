@@ -1,0 +1,39 @@
+.mainPage {
+  min-height: 78vh;
+}
+
+.no-taskBg {
+  background-color: #eee;
+  font-family: Poppins;
+  width: 600px;
+  margin: 40px;
+}
+
+.no-tasks-text {
+  font-size: 1.5rem;
+}
+
+.list-group {
+  font-family: "Poppins";
+  font-size: 1rem;
+  place-items: center;
+}
+
+.list {
+  place-items: center;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  color: lightgreen;
+  align-items: center;
+  justify-content: center;
+  gap: 3%
+}
+
+.tasks-container>div {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  gap: 3%;
+}

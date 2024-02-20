@@ -1,0 +1,15 @@
+{
+  "short_name": "DONE",
+  "name": "Done",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "342x331",
+      "type": "image"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

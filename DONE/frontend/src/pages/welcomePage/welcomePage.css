@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.wrapper {
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../../../public/img/sunset3.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+.welcomeContainer {
+  width: 800px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.welcomeContainer h1 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 2px #333;
+}
+
+.welcomeContainer .subTitle {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  padding-top: 4px;
+  text-shadow: 0.5px 0.5px 2px #333;
+}
+
+.buttonContainer {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeContainer .welcomeButton {
+  margin: 20px;
+  width: 200px;
+  height: 45px;
+  background-color: #323232;
+  color: #dddddd;
+  border-radius: 15px;
+  border: none;
+  transition-duration: 0.2s;
+}
+
+.welcomeButton:hover {
+  background-color: #ffba00;
+  border: none;
+  color: #323232;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .welcomeContainer {
+    width: 80%;
+  }
+
+  .welcomeContainer h1 {
+    font-size: 1.4rem;
+  }
+
+  .logo>img {
+    width: 50%
+  }
+
+  .buttonContainer {
+    margin: 0
+  }
+
+  .welcomeContainer .welcomeButton{
+    margin: 0;
+  }
+}
